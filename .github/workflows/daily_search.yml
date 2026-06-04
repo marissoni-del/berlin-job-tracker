@@ -6,7 +6,7 @@ on:
     - cron: '0 8 * * *'
   workflow_dispatch:
     # Permite rodar manualmente pelo botão no GitHub
-
+ 
 jobs:
   search-jobs:
     runs-on: ubuntu-latest
