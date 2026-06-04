@@ -1,4 +1,4 @@
-name: Berlin Job Tracker – Daily Search
+name: Berlin Job Tracker Daily Search
 
 on:
   schedule:
