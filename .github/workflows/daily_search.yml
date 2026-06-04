@@ -2,40 +2,36 @@ name: Berlin Job Tracker – Daily Search
 
 on:
   schedule:
-    # Roda todos os dias às 08:00 UTC (09:00 Berlin horário de verão)
     - cron: '0 8 * * *'
   workflow_dispatch:
-    # Permite rodar manualmente pelo botão no GitHub
- 
+
 jobs:
   search-jobs:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repositório
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configurar Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalar dependências
-        run: |
-          pip install requests beautifulsoup4 feedparser
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 feedparser
 
-      - name: Executar scraper
+      - name: Run scraper
         run: python scraper.py
 
-      - name: Gerar dashboard HTML
+      - name: Generate dashboard
         run: python generate_html.py
 
-      - name: Commitar resultados atualizados
+      - name: Commit results
         run: |
           git config --global user.name "Job Tracker Bot"
           git config --global user.email "bot@jobtracker.local"
           git add jobs_data.json dashboard.html
-          git diff --staged --quiet || git commit -m "🔄 Atualização diária – $(date +'%d/%m/%Y')"
+          git diff --staged --quiet || git commit -m "Daily update $(date +'%d/%m/%Y')"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
