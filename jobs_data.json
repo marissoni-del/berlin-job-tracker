@@ -1,12 +1,51 @@
 {
-  "jobs": [],
-  "last_updated": "2026-06-04T08:58:42.006750",
+  "jobs": [
+    {
+      "title": "10 interview tips for interns in the EU bubble",
+      "company": "Euractiv",
+      "description": "By: Ross Melzer, Senior Director EU Affairs & Head of Policy Events at Euractiv",
+      "url": "https://jobs.euractiv.com/10-interview-tips-for-interns-in-the-eu-bubble/",
+      "source": "Euractiv Jobs",
+      "location": "Germany/Berlin",
+      "id": "71a8ef04b21e",
+      "score": 14,
+      "found_date": "2026-06-04"
+    },
+    {
+      "title": "How to Build a Career in the Brussels Bubble Beyond Internships",
+      "company": "Euractiv",
+      "description": "By Gökşen Çalişkan, Senior Advisor to Euractiv's Advocacy Lab.",
+      "url": "https://jobs.euractiv.com/how-to-build-a-career-in-the-brussels-bubble-beyond-internships/",
+      "source": "Euractiv Jobs",
+      "location": "Germany/Berlin",
+      "id": "449239654d3a",
+      "score": 7,
+      "found_date": "2026-06-04"
+    },
+    {
+      "title": "The Hidden Job Market of Brussels: 3,000 European Associations Powering Europe’s Policy Ecosystem",
+      "company": "Euractiv",
+      "description": "By: Dan Luca, Vice-President for Strategic Innovations at Euractiv",
+      "url": "https://jobs.euractiv.com/the-hidden-job-market-of-brussels-3000-european-associations-powering-europes-policy-ecosystem/",
+      "source": "Euractiv Jobs",
+      "location": "Germany/Berlin",
+      "id": "24e0647308b1",
+      "score": 7,
+      "found_date": "2026-06-04"
+    }
+  ],
+  "last_updated": "2026-06-04T09:26:27.133265",
   "history": [
     {
       "date": "2026-06-04",
       "total": 0,
       "new": 0
+    },
+    {
+      "date": "2026-06-04",
+      "total": 3,
+      "new": 3
     }
   ],
-  "new_today": 0
+  "new_today": 3
 }
