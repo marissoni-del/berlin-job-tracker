@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Berlin Job Tracker – Mateus</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f4f6f9; color: #1a1a2e; }
+  header { background: #1a1a2e; color: white; padding: 28px 40px; }
+  header h1 { font-size: 1.6rem; font-weight: 700; }
+  header p { font-size: 0.88rem; color: #aab; margin-top: 5px; }
+  .container { max-width: 980px; margin: 0 auto; padding: 28px 20px; }
+  .stats { display: flex; gap: 14px; margin-bottom: 24px; flex-wrap: wrap; }
+  .stat-box { background: white; border-radius: 12px; padding: 16px 22px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); flex: 1; min-width: 120px; }
+  .stat-num { font-size: 2rem; font-weight: 800; color: #1a1a2e; }
+  .stat-label { font-size: 0.75rem; color: #888; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
+  .filters { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; align-items: center; }
+  .filter-btn { padding: 7px 16px; border-radius: 20px; border: 2px solid #1a1a2e; cursor: pointer; font-size: 0.82rem; font-weight: 600; background: white; transition: all 0.2s; }
+  .filter-btn.active, .filter-btn:hover { background: #1a1a2e; color: white; }
+  .card { background: white; border-radius: 14px; box-shadow: 0 2px 10px rgba(0,0,0,0.07); margin-bottom: 16px; overflow: hidden; }
+  .card-header { padding: 18px 22px 14px; border-bottom: 1px solid #f0f0f0; display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
+  .card-title { font-size: 1.05rem; font-weight: 700; color: #1a1a2e; }
+  .card-meta { font-size: 0.82rem; color: #666; margin-top: 3px; }
+  .badge { padding: 4px 12px; border-radius: 20px; font-size: 0.73rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+  .score-num { font-size: 0.78rem; font-weight: 700; }
+  .card-body { padding: 16px 22px; }
+  .desc { font-size: 0.88rem; line-height: 1.6; color: #444; }
+  .card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; flex-wrap: wrap; gap: 8px; }
+  .found-date { font-size: 0.78rem; color: #999; }
+  .apply-btn { background: #1a1a2e; color: white; padding: 7px 16px; border-radius: 8px; text-decoration: none; font-size: 0.82rem; font-weight: 600; }
+  .apply-btn:hover { background: #2d2d4e; }
+  .last-updated { font-size: 0.82rem; color: #888; margin-left: auto; }
+  .no-jobs { text-align: center; padding: 60px; color: #888; font-size: 1rem; }
+  .new-badge { background: #e0f7fa; color: #006064; padding: 3px 10px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; margin-left: 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🗺️ Berlin Job Tracker</h1>
+  <p>Mateus Andery Rissoni · Inglês / Espanhol / Português · MPP Hertie School</p>
+  <p style="margin-top:8px;">Última atualização: 04/06/2026 às 08:58
+    
+  </p>
+</header>
+
+<div class="container">
+
+  <div class="stats">
+    <div class="stat-box">
+      <div class="stat-num">0</div>
+      <div class="stat-label">Vagas encontradas</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num" style="color:#1a7a3a;">0</div>
+      <div class="stat-label">Alta compatibilidade</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num" style="color:#8a6500;">0</div>
+      <div class="stat-label">Média compatibilidade</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num" style="color:#c0392b;">0</div>
+      <div class="stat-label">Novas hoje</div>
+    </div>
+  </div>
+
+  <div class="filters">
+    <button class="filter-btn active" onclick="filter('all', this)">Todas</button>
+    <button class="filter-btn" onclick="filter('high', this)">Alta compatibilidade</button>
+    <button class="filter-btn" onclick="filter('med', this)">Média</button>
+    <span class="last-updated">Atualizado automaticamente todo dia às 08:00 (GitHub Actions)</span>
+  </div>
+
+  <div id="jobs-list">
+    <div class="no-jobs">Nenhuma vaga encontrada ainda. Execute o scraper para começar.</div>
+  </div>
+
+</div>
+
+<script>
+  function filter(level, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.card').forEach(card => {
+      const score = parseInt(card.dataset.score || 0);
+      if (level === 'all') card.style.display = 'block';
+      else if (level === 'high') card.style.display = score >= 50 ? 'block' : 'none';
+      else if (level === 'med') card.style.display = (score >= 28 && score < 50) ? 'block' : 'none';
+    });
+  }
+</script>
+
+</body>
+</html>
