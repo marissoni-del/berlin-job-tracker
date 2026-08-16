@@ -9,7 +9,7 @@
       "location": "Germany/Berlin",
       "id": "71a8ef04b21e",
       "score": 14,
-      "found_date": "2026-08-15"
+      "found_date": "2026-08-16"
     },
     {
       "title": "Inside the Brussels Bubble: Survey Insights on Ghost Jobs, Unpaid Internships, and the June 2026 Pay Transparency Pivot",
@@ -20,7 +20,7 @@
       "location": "Germany/Berlin",
       "id": "f3bfe4017a93",
       "score": 7,
-      "found_date": "2026-08-15"
+      "found_date": "2026-08-16"
     },
     {
       "title": "How to Build a Career in the Brussels Bubble Beyond Internships",
@@ -31,7 +31,7 @@
       "location": "Germany/Berlin",
       "id": "449239654d3a",
       "score": 7,
-      "found_date": "2026-08-15"
+      "found_date": "2026-08-16"
     },
     {
       "title": "The Hidden Job Market of Brussels: 3,000 European Associations Powering Europe’s Policy Ecosystem",
@@ -42,16 +42,11 @@
       "location": "Germany/Berlin",
       "id": "24e0647308b1",
       "score": 7,
-      "found_date": "2026-08-15"
+      "found_date": "2026-08-16"
     }
   ],
-  "last_updated": "2026-08-15T08:12:06.966390",
+  "last_updated": "2026-08-16T08:12:53.846984",
   "history": [
-    {
-      "date": "2026-07-17",
-      "total": 4,
-      "new": 0
-    },
     {
       "date": "2026-07-18",
       "total": 4,
@@ -194,6 +189,11 @@
     },
     {
       "date": "2026-08-15",
+      "total": 4,
+      "new": 0
+    },
+    {
+      "date": "2026-08-16",
       "total": 4,
       "new": 0
     }
