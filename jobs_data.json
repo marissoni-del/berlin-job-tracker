@@ -1,57 +1,19 @@
 {
   "jobs": [
     {
-      "title": "10 interview tips for interns in the EU bubble",
-      "company": "Euractiv",
-      "description": "By: Ross Melzer, Senior Director EU Affairs & Head of Policy Events at Euractiv",
-      "url": "https://jobs.euractiv.com/10-interview-tips-for-interns-in-the-eu-bubble/",
+      "title": "Studentische Hilfskraft (m/w/d) mit Büroerfahrung",
+      "company": "ICLEI",
+      "description": "ICLEI – Local Governments for Sustainability ist ein globales Netzwerk, das mit mehr als 2500 lokalen und regionalen Regierungen zusammenarbeitet, die sich für eine nachhaltige Stadtentwicklung einsetzen. Aktiv in über 125 Ländern, beeinflussen wir die Nachhaltigkeitspolitik und treiben lokale Maßnahmen für eine emissionsarme, naturnahe, gerechte, widerstandsfähige und kreislauforientierte Entwick",
+      "url": "https://jobs.euractiv.com/jobs/studentische-hilfskraft-m-w-d-mit-buroerfahrung-freiburg-on-site-iclei/",
       "source": "Euractiv Jobs",
       "location": "Germany/Berlin",
-      "id": "71a8ef04b21e",
-      "score": 14,
-      "found_date": "2026-08-31"
-    },
-    {
-      "title": "Inside the Brussels Bubble: Survey Insights on Ghost Jobs, Unpaid Internships, and the June 2026 Pay Transparency Pivot",
-      "company": "Euractiv",
-      "description": "Written by Cristiana Sbaraini, Euractiv Jobs Coordinator",
-      "url": "https://jobs.euractiv.com/inside-the-brussels-bubble-survey-insights-on-ghost-jobs-unpaid-internships-and-the-june-2026-pay-transparency-pivot/",
-      "source": "Euractiv Jobs",
-      "location": "Germany/Berlin",
-      "id": "f3bfe4017a93",
+      "id": "1dd35a5740ac",
       "score": 7,
-      "found_date": "2026-08-31"
-    },
-    {
-      "title": "How to Build a Career in the Brussels Bubble Beyond Internships",
-      "company": "Euractiv",
-      "description": "By Gökşen Çalişkan, Senior Advisor to Euractiv's Advocacy Lab.",
-      "url": "https://jobs.euractiv.com/how-to-build-a-career-in-the-brussels-bubble-beyond-internships/",
-      "source": "Euractiv Jobs",
-      "location": "Germany/Berlin",
-      "id": "449239654d3a",
-      "score": 7,
-      "found_date": "2026-08-31"
-    },
-    {
-      "title": "The Hidden Job Market of Brussels: 3,000 European Associations Powering Europe’s Policy Ecosystem",
-      "company": "Euractiv",
-      "description": "By: Dan Luca, Vice-President for Strategic Innovations at Euractiv",
-      "url": "https://jobs.euractiv.com/the-hidden-job-market-of-brussels-3000-european-associations-powering-europes-policy-ecosystem/",
-      "source": "Euractiv Jobs",
-      "location": "Germany/Berlin",
-      "id": "24e0647308b1",
-      "score": 7,
-      "found_date": "2026-08-31"
+      "found_date": "2026-09-01"
     }
   ],
-  "last_updated": "2026-08-31T15:32:37.446569",
+  "last_updated": "2026-09-01T12:49:00.723982",
   "history": [
-    {
-      "date": "2026-08-02",
-      "total": 4,
-      "new": 0
-    },
     {
       "date": "2026-08-03",
       "total": 4,
@@ -196,7 +158,12 @@
       "date": "2026-08-31",
       "total": 4,
       "new": 0
+    },
+    {
+      "date": "2026-09-01",
+      "total": 1,
+      "new": 1
     }
   ],
-  "new_today": 0
+  "new_today": 1
 }
