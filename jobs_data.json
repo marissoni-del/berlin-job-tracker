@@ -9,16 +9,11 @@
       "location": "Germany/Berlin",
       "id": "1dd35a5740ac",
       "score": 7,
-      "found_date": "2026-09-03"
+      "found_date": "2026-09-04"
     }
   ],
-  "last_updated": "2026-09-03T12:16:47.079389",
+  "last_updated": "2026-09-04T12:17:19.834406",
   "history": [
-    {
-      "date": "2026-08-05",
-      "total": 4,
-      "new": 0
-    },
     {
       "date": "2026-08-06",
       "total": 4,
@@ -161,6 +156,11 @@
     },
     {
       "date": "2026-09-03",
+      "total": 1,
+      "new": 0
+    },
+    {
+      "date": "2026-09-04",
       "total": 1,
       "new": 0
     }
