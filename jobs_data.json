@@ -9,7 +9,7 @@
       "location": "Germany/Berlin",
       "id": "9594baed8a68",
       "score": 7,
-      "found_date": "2026-09-11"
+      "found_date": "2026-09-12"
     },
     {
       "title": "Studentische Hilfskraft (m/w/d) mit Büroerfahrung",
@@ -20,16 +20,11 @@
       "location": "Germany/Berlin",
       "id": "1dd35a5740ac",
       "score": 7,
-      "found_date": "2026-09-11"
+      "found_date": "2026-09-12"
     }
   ],
-  "last_updated": "2026-09-11T12:22:44.324329",
+  "last_updated": "2026-09-12T11:44:27.063239",
   "history": [
-    {
-      "date": "2026-08-13",
-      "total": 4,
-      "new": 0
-    },
     {
       "date": "2026-08-14",
       "total": 4,
@@ -174,7 +169,12 @@
       "date": "2026-09-11",
       "total": 2,
       "new": 1
+    },
+    {
+      "date": "2026-09-12",
+      "total": 2,
+      "new": 0
     }
   ],
-  "new_today": 1
+  "new_today": 0
 }
