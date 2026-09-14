@@ -9,27 +9,11 @@
       "location": "Germany/Berlin",
       "id": "9594baed8a68",
       "score": 7,
-      "found_date": "2026-09-13"
-    },
-    {
-      "title": "Studentische Hilfskraft (m/w/d) mit Büroerfahrung",
-      "company": "ICLEI",
-      "description": "ICLEI – Local Governments for Sustainability ist ein globales Netzwerk, das mit mehr als 2500 lokalen und regionalen Regierungen zusammenarbeitet, die sich für eine nachhaltige Stadtentwicklung einsetzen. Aktiv in über 125 Ländern, beeinflussen wir die Nachhaltigkeitspolitik und treiben lokale Maßnahmen für eine emissionsarme, naturnahe, gerechte, widerstandsfähige und kreislauforientierte Entwick",
-      "url": "https://jobs.euractiv.com/jobs/studentische-hilfskraft-m-w-d-mit-buroerfahrung-freiburg-on-site-iclei/",
-      "source": "Euractiv Jobs",
-      "location": "Germany/Berlin",
-      "id": "1dd35a5740ac",
-      "score": 7,
-      "found_date": "2026-09-13"
+      "found_date": "2026-09-14"
     }
   ],
-  "last_updated": "2026-09-13T12:52:13.196598",
+  "last_updated": "2026-09-14T14:27:07.577429",
   "history": [
-    {
-      "date": "2026-08-15",
-      "total": 4,
-      "new": 0
-    },
     {
       "date": "2026-08-16",
       "total": 4,
@@ -173,6 +157,11 @@
     {
       "date": "2026-09-13",
       "total": 2,
+      "new": 0
+    },
+    {
+      "date": "2026-09-14",
+      "total": 1,
       "new": 0
     }
   ],
