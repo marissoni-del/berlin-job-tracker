@@ -1,24 +1,7 @@
 {
-  "jobs": [
-    {
-      "title": "European Government Relations Adviser",
-      "company": "Wellcome Trust gGmbH",
-      "description": "We encourage early applications. Applications will be reviewed on a rolling basis, and the vacancy may close early if sufficient suitable applications are received. Start Date: As soon as possible About Wellcome Wellcome is a global charitable foundation dedicated to improving health for everyone. We achieve this by funding cutting-edge science, shaping policy, leading advocacy […]",
-      "url": "https://jobs.euractiv.com/jobs/european-government-relations-adviser-berlin-hybrid-wellcome-trust-ggmbh/",
-      "source": "Euractiv Jobs",
-      "location": "Germany/Berlin",
-      "id": "9594baed8a68",
-      "score": 7,
-      "found_date": "2026-09-25"
-    }
-  ],
-  "last_updated": "2026-09-25T13:02:53.391214",
+  "jobs": [],
+  "last_updated": "2026-09-26T12:30:30.330246",
   "history": [
-    {
-      "date": "2026-08-27",
-      "total": 4,
-      "new": 0
-    },
     {
       "date": "2026-08-28",
       "total": 4,
@@ -162,6 +145,11 @@
     {
       "date": "2026-09-25",
       "total": 1,
+      "new": 0
+    },
+    {
+      "date": "2026-09-26",
+      "total": 0,
       "new": 0
     }
   ],
