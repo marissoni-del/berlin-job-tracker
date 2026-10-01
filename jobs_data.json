@@ -1,12 +1,30 @@
 {
-  "jobs": [],
-  "last_updated": "2026-09-30T14:16:51.273601",
-  "history": [
+  "jobs": [
     {
-      "date": "2026-09-01",
-      "total": 1,
-      "new": 1
+      "title": "Junior Officer: Financial Management and Accounting (f/m/d)",
+      "company": "ICLEI",
+      "description": "Start date: 1 January 2027 Duration: 2 years (with view to extension) Pensum: 60 – 100% Location: Freiburg, Germany Deadline for application: 15 November 2026 Do you want to contribute to making our cities better places to live? ICLEI – Local Governments for Sustainability is a global network working with more than 2500 local and […]",
+      "url": "https://jobs.rapporteur.com/jobs/junior-officer-financial-management-and-accounting-f-m-d-freiburg-hybrid-iclei/",
+      "source": "Euractiv Jobs",
+      "location": "Germany/Berlin",
+      "id": "2a2c2ecc6337",
+      "score": 7,
+      "found_date": "2026-10-01"
     },
+    {
+      "title": "Officer: Financial Management and Accounting (f/m/d)",
+      "company": "ICLEI",
+      "description": "Start date: 1 January 2027 Duration: 2 years (with view to extension) Pensum: 60 – 100% Location: Freiburg, Germany Deadline for application: 15 November 2026 Do you want to contribute to making our cities better places to live? ICLEI – Local Governments for Sustainability is a global network working with more than 2500 local and […]",
+      "url": "https://jobs.rapporteur.com/jobs/financial-management-and-accounting-f-m-d-freiburg-hybrid-iclei/",
+      "source": "Euractiv Jobs",
+      "location": "Germany/Berlin",
+      "id": "65a666207a1c",
+      "score": 7,
+      "found_date": "2026-10-01"
+    }
+  ],
+  "last_updated": "2026-10-01T14:51:00.926356",
+  "history": [
     {
       "date": "2026-09-02",
       "total": 1,
@@ -151,7 +169,12 @@
       "date": "2026-09-30",
       "total": 0,
       "new": 0
+    },
+    {
+      "date": "2026-10-01",
+      "total": 2,
+      "new": 2
     }
   ],
-  "new_today": 0
+  "new_today": 2
 }
