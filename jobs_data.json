@@ -9,7 +9,7 @@
       "location": "Germany/Berlin",
       "id": "2a2c2ecc6337",
       "score": 7,
-      "found_date": "2026-10-02"
+      "found_date": "2026-10-03"
     },
     {
       "title": "Officer: Financial Management and Accounting (f/m/d)",
@@ -20,16 +20,11 @@
       "location": "Germany/Berlin",
       "id": "65a666207a1c",
       "score": 7,
-      "found_date": "2026-10-02"
+      "found_date": "2026-10-03"
     }
   ],
-  "last_updated": "2026-10-02T14:11:03.222901",
+  "last_updated": "2026-10-03T12:46:41.739679",
   "history": [
-    {
-      "date": "2026-09-03",
-      "total": 1,
-      "new": 0
-    },
     {
       "date": "2026-09-04",
       "total": 1,
@@ -172,6 +167,11 @@
     },
     {
       "date": "2026-10-02",
+      "total": 2,
+      "new": 0
+    },
+    {
+      "date": "2026-10-03",
       "total": 2,
       "new": 0
     }
